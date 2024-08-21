@@ -1,0 +1,228 @@
+{
+  "students": [
+    {
+      "name": "John Doe",
+      "id": "01",
+      "status": "",
+      "date": ""
+    },
+    {
+      "name": "Jane Smith",
+      "id": "02",
+      "status": "",
+      "date": ""
+    },
+    {
+      "name": "Emily Johnson",
+      "id": "03",
+      "status": "",
+      "date": ""
+    },
+    {
+      "name": "Michael Brown",
+      "id": "04",
+      "status": "",
+      "date": ""
+    },
+    {
+      "name": "Sarah Davis",
+      "id": "05",
+      "status": "",
+      "date": ""
+    },
+    {
+      "name": "David Wilson",
+      "id": "06",
+      "status": "",
+      "date": ""
+    },
+    {
+      "name": "Sophia Martinez",
+      "id": "07",
+      "status": "",
+      "date": ""
+    },
+    {
+      "name": "James Anderson",
+      "id": "08",
+      "status": "",
+      "date": ""
+    },
+    {
+      "name": "Olivia Thomas",
+      "id": "09",
+      "status": "",
+      "date": ""
+    },
+    {
+      "name": "Daniel Jackson",
+      "id": "10",
+      "status": "",
+      "date": ""
+    }
+  ],
+  "Sun Aug 18 2024": [],
+  "Mon Aug 19 2024": [],
+  "Tue Aug 20 2024": [
+    {
+      "0": {
+        "name": "John Doe",
+        "id": "01",
+        "status": "Present",
+        "date": "2024-08-20T11:56:14.986Z"
+      },
+      "1": {
+        "name": "Jane Smith",
+        "id": "02",
+        "status": "Absent",
+        "date": "2024-08-20T11:56:14.986Z"
+      },
+      "2": {
+        "name": "Emily Johnson",
+        "id": "03",
+        "status": "Absent",
+        "date": "2024-08-20T11:56:14.986Z"
+      },
+      "3": {
+        "name": "Michael Brown",
+        "id": "04",
+        "status": "Present",
+        "date": "2024-08-20T11:56:14.986Z"
+      },
+      "4": {
+        "name": "Sarah Davis",
+        "id": "05",
+        "status": "Present",
+        "date": "2024-08-20T11:56:14.986Z"
+      },
+      "5": {
+        "name": "David Wilson",
+        "id": "06",
+        "status": "Absent",
+        "date": "2024-08-20T11:56:14.986Z"
+      },
+      "6": {
+        "name": "Sophia Martinez",
+        "id": "07",
+        "status": "Present",
+        "date": "2024-08-20T11:56:14.986Z"
+      },
+      "7": {
+        "name": "James Anderson",
+        "id": "08",
+        "status": "Present",
+        "date": "2024-08-20T11:56:14.986Z"
+      },
+      "8": {
+        "name": "Olivia Thomas",
+        "id": "09",
+        "status": "Absent",
+        "date": "2024-08-20T11:56:14.986Z"
+      },
+      "9": {
+        "name": "Daniel Jackson",
+        "id": "10",
+        "status": "Present",
+        "date": "2024-08-20T11:56:14.986Z"
+      },
+      "id": "1b77"
+    }
+  ],
+  "Wed Aug 21 2024": [],
+  "Thu Aug 22 2024": [],
+  "Fri Aug 23 2024": [],
+  "Sat Aug 24 2024": [],
+  "Sun Aug 25 2024": [],
+  "Mon Aug 26 2024": [],
+  "Tue Aug 27 2024": [],
+  "Wed Aug 28 2024": [],
+  "Thu Aug 29 2024": [],
+  "Fri Aug 30 2024": [],
+  "Sat Aug 31 2024": [],
+  "Sun Sep 01 2024": [],
+  "Mon Sep 02 2024": [],
+  "Tue Sep 03 2024": [],
+  "Wed Sep 04 2024": [],
+  "Thu Sep 05 2024": [],
+  "Fri Sep 06 2024": [],
+  "Sat Sep 07 2024": [],
+  "Sun Sep 08 2024": [],
+  "Mon Sep 09 2024": [],
+  "Tue Sep 10 2024": [],
+  "Wed Sep 11 2024": [],
+  "Thu Sep 12 2024": [],
+  "Fri Sep 13 2024": [],
+  "Sat Sep 14 2024": [],
+  "Sun Sep 15 2024": [],
+  "Mon Sep 16 2024": [],
+  "Tue Sep 17 2024": [],
+  "Wed Sep 18 2024": [],
+  "Thu Sep 19 2024": [],
+  "Fri Sep 20 2024": [],
+  "Sat Sep 21 2024": [],
+  "Sun Sep 22 2024": [],
+  "Mon Sep 23 2024": [],
+  "Tue Sep 24 2024": [],
+  "Wed Sep 25 2024": [],
+  "Thu Sep 26 2024": [],
+  "Fri Sep 27 2024": [],
+  "Sat Sep 28 2024": [],
+  "Sun Sep 29 2024": [],
+  "Mon Sep 30 2024": [],
+  "Tue Oct 01 2024": [],
+  "Wed Oct 02 2024": [],
+  "Thu Oct 03 2024": [],
+  "Fri Oct 04 2024": [],
+  "Sat Oct 05 2024": [],
+  "Sun Oct 06 2024": [],
+  "Mon Oct 07 2024": [],
+  "Tue Oct 08 2024": [],
+  "Wed Oct 09 2024": [],
+  "Thu Oct 10 2024": [],
+  "Fri Oct 11 2024": [],
+  "Sat Oct 12 2024": [],
+  "Sun Oct 13 2024": [],
+  "Mon Oct 14 2024": [],
+  "Tue Oct 15 2024": [],
+  "Wed Oct 16 2024": [],
+  "Thu Oct 17 2024": [],
+  "Fri Oct 18 2024": [],
+  "Sat Oct 19 2024": [],
+  "Sun Oct 20 2024": [],
+  "Mon Oct 21 2024": [],
+  "Tue Oct 22 2024": [],
+  "Wed Oct 23 2024": [],
+  "Thu Oct 24 2024": [],
+  "Fri Oct 25 2024": [],
+  "Sat Oct 26 2024": [],
+  "Sun Oct 27 2024": [],
+  "Mon Oct 28 2024": [],
+  "Tue Oct 29 2024": [],
+  "Wed Oct 30 2024": [],
+  "Thu Oct 31 2024": [],
+  "Fri Nov 01 2024": [],
+  "Sat Nov 02 2024": [],
+  "Sun Nov 03 2024": [],
+  "Mon Nov 04 2024": [],
+  "Tue Nov 05 2024": [],
+  "Wed Nov 06 2024": [],
+  "Thu Nov 07 2024": [],
+  "Fri Nov 08 2024": [],
+  "Sat Nov 09 2024": [],
+  "Sun Nov 10 2024": [],
+  "Mon Nov 11 2024": [],
+  "Tue Nov 12 2024": [],
+  "Wed Nov 13 2024": [],
+  "Thu Nov 14 2024": [],
+  "Fri Nov 15 2024": [],
+  "Sat Nov 16 2024": [],
+  "Sun Nov 17 2024": [],
+  "Mon Nov 18 2024": [],
+  "Tue Nov 19 2024": [],
+  "Wed Nov 20 2024": [],
+  "Thu Nov 21 2024": [],
+  "Fri Nov 22 2024": [],
+  "Sat Nov 23 2024": [],
+  "Sun Nov 24 2024": [],
+  "Mon Nov 25 2024": []
+}
