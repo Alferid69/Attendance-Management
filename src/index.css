@@ -1,0 +1,292 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #00796b;
+  color: #fff;
+  padding: 1.5rem 0;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+main {
+  flex: 1;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date-section {
+  width: 300px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.date-nav-btn {
+  background-color: #00796b;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.date-nav-btn:hover {
+  background-color: #004d40;
+  transform: translateY(-3px);
+  opacity: 0.9;
+}
+
+.icon {
+  font-size: 1.2rem;
+}
+
+.student-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.student-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.student-card:hover {
+  transform: translateY(-10px);
+}
+
+.student-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.student-card p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.status {
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.status.Present {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.status.Absent {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #fff;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.present-btn {
+  background-color: #388e3c;
+}
+
+.absent-btn {
+  background-color: #d32f2f;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  opacity: 0.9;
+}
+
+footer {
+  background-color: #00796b;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 1rem;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.save-button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 20px;
+}
+
+/* .btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+} */
+
+.save-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.filter-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.filter-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.save-btn:disabled:hover {
+  transform: translate(0);
+}
+
+.loading-overlay {
+  position: absolute;
+  top: 120px; /* Assuming the header is around 120px */
+  width: 100%;
+  height: 70%;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 1000;
+}
+
+.spinner {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-overlay p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.main-content {
+  padding: 20px;
+  margin-top: 120px; /* Adjust depending on the header height */
+}
+
+.error-page-container {
+  position: fixed;
+  top: 70px; /* Adjust this value to be below your header */
+  left: 0;
+  width: 100%;
+  height: calc(
+    100% - 70px
+  ); /* Cover the rest of the page, excluding the header area */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; /* Ensure it covers other elements */
+}
+
+.error-content {
+  text-align: center;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.error-content h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #ff4444; /* Red color for the error */
+}
+
+.error-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.go-back-btn {
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.go-back-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
