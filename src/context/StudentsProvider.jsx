@@ -11,7 +11,7 @@ const initialState = {
   presentStudents: [],
   showPresent: false,
   showAbsent: false,
-  isError: false
+  isError: false,
 };
 
 function reducer(state = initialState, action) {
@@ -73,7 +73,7 @@ function reducer(state = initialState, action) {
         isDataAvailable: false,
         showPresent: false,
         showAbsent: false,
-        isError: false
+        isError: false,
       };
     case "present":
       return {
@@ -101,7 +101,7 @@ function reducer(state = initialState, action) {
       };
 
     case "failed":
-      return {...state,isLoading: false, isError: true};
+      return { ...state, isLoading: false, isError: true };
 
     default:
       return state;
@@ -123,7 +123,6 @@ function incrementDate(date) {
 const StudentsContext = createContext();
 
 function StudentsProvider({ children }) {
-  
   const [
     {
       students,
@@ -136,7 +135,7 @@ function StudentsProvider({ children }) {
       presentStudents,
       showAbsent,
       showPresent,
-      isError
+      isError,
     },
     dispatch,
   ] = useReducer(reducer, initialState);
@@ -183,15 +182,13 @@ function StudentsProvider({ children }) {
             extractedStudents.push(studentsArray[key]);
           }
         }
-        extractedStudents.pop();//to remove random id added by post method
+        extractedStudents.pop(); //to remove random id added by post method
         return extractedStudents;
       }
 
       function handleFetchError(error) {
         console.error("You have this error", error.message);
-        if (error.message === "404") {
-          dispatch({ type: "failed" });
-        }
+        dispatch({ type: "failed" });
       }
       fetchStudents();
     },
@@ -280,7 +277,7 @@ function StudentsProvider({ children }) {
         filterPresent,
         showPresent,
         showAbsent,
-        isError
+        isError,
       }}
     >
       {children}
